@@ -12,4 +12,4 @@ function employeeattendance(){
     console.log("===========================\n");
 }
 employeeattendance();
-module.export=employeeattendance;
+module.exports=employeeattendance;
