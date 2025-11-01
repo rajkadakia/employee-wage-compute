@@ -65,7 +65,7 @@ Select a Use Case to Run:
       exit = true;
       break;
     default:
-      console.log(" Invalid choice. Please enter a number between 1 and 9.");
+      console.log("Invalid choice. Please enter a number between 1 and 9.");
   }
 
   if (!exit) {
