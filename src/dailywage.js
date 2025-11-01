@@ -31,6 +31,6 @@ function dailyWage() {
     console.log("===========================\n");
 }
 
-dailyWage();
+
 
 module.exports = dailyWage;

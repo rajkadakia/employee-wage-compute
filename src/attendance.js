@@ -11,5 +11,5 @@ function employeeattendance(){
     }
     console.log("===========================\n");
 }
-employeeattendance();
+
 module.exports=employeeattendance;

@@ -12,7 +12,7 @@ class EmployeeWage {
             let hoursWorked = parseInt(prompt(`Enter hours worked on day ${totalDays}: `));
 
             if (isNaN(hoursWorked) || hoursWorked < 0) {
-                console.log(" Invalid input. Try again.");
+                console.log("Invalid input. Try again.");
                 totalDays--;
                 continue;
             }
@@ -46,11 +46,8 @@ class EmployeeWage {
     }
 }
 
-
-module.exports = EmployeeWage;
-
-// standalone if executed directly (optional)
-if (require.main === module) {
+// This is the wrapper function you’ll call from main.js
+function runCompanyWage() {
     const empWage = new EmployeeWage();
     const numCompanies = parseInt(prompt("Enter number of companies: "));
 
@@ -64,3 +61,5 @@ if (require.main === module) {
         empWage.computeWage(company, wagePerHour, maxDays, maxHours);
     }
 }
+
+module.exports = runCompanyWage;

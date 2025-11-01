@@ -37,6 +37,6 @@ function monthlyWage() {
     console.log("===========================\n");
 }
 
-monthlyWage();
+
 
 module.exports = monthlyWage;

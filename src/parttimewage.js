@@ -46,6 +46,6 @@ function partTimeWage() {
     console.log("===========================\n");
 }
 
-partTimeWage();
+
 
 module.exports = partTimeWage;

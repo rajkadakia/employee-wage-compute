@@ -43,6 +43,6 @@ function switchWage() {
     console.log("===========================\n");
 }
 
-switchWage();
+
 
 module.exports = switchWage;

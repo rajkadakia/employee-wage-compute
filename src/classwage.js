@@ -35,6 +35,6 @@ function classWage() {
     console.log("===========================\n");
 }
 
-classWage();
+
 
 module.exports = classWage;

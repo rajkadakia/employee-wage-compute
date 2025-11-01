@@ -34,6 +34,6 @@ function conditionalWage() {
     console.log("===========================\n");
 }
 
-conditionalWage();
+
 
 module.exports = conditionalWage;
