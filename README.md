@@ -57,8 +57,7 @@ JavaScript (ES6 Modules + OOP)
 
 CLI using prompt-sync
 
-📸 Screenshots
-(Optional — send me your terminal screenshot, I’ll beautify it.)
+
 
 🧑‍💻 Author
 Raj Kadakia
